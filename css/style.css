@@ -1,0 +1,85 @@
+:root {
+    --navy-blue-color:#2E2F42;
+    --text-slate-color:#434455;
+    --acent-color:#FFFFFF;
+    --background-color:#E5E5E5;
+    --iris-button-color:#4D5AE5;
+    --bg-button-color: #F4F4FD;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-slate-color);
+}
+
+ul {
+    list-style: none;
+}
+/*вибірково при написанні класу в ul
+.list {
+    list-style: none;
+}*/
+
+/*logo*/
+
+/*.site-nav*/
+.site-nav .link {
+    color:var(--navy-blue-color)
+}
+.site-nav .link:hover {
+    color: var(--text-slate-color)
+}
+.site-nav .link:focus {
+    color: var(--iris-button-color);
+}
+
+/*contacts*/
+.contacts-nav {
+    color: var(--text-slate-color) ;
+}
+
+
+.hero-title {
+    color: var(--acent-color);
+}
+
+.section-title {
+    color:var(--navy-blue-color)
+}
+
+
+.title {
+    color: var(--navy-blue-colo)
+}
+
+
+/*Button*/
+.button {
+    color: var(--text-slate-color);
+    background-color: var(--background-color) ;
+}
+
+.button.primary {
+    color: var(--acent-color);
+    background-color: var(--iris-button-color);
+}
+
+.button.secondary {
+    color: var(--iris-button-color);
+    background-color: var(--bg-button-color) ;
+}
+
+
+/* колір основного шрифту ; #434455 */
+/* вторинний колір #2E2F42; */
+/* білий #FFFFFF; */
+/* Button Text+WEB #4D5AE5; */
+/* footer #E7E9FC;*/
+/* studio in footer  #F4F4FD; */
+
+/*background: #E5E5E5;*/
+/*header background #FFFFFF; */
+/* section1 #2E2F42; section2 #F4F4FD;*/
+/**/
+/**/
+
